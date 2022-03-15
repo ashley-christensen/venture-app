@@ -95,7 +95,7 @@ a:visited {
   align-items: baseline;
 }
 
-/* NEEDED?????? */
+
 .venture__icon {
   font-size: 1.8rem;
   margin-right: 0.2rem;
@@ -113,7 +113,7 @@ a:visited {
   text-transform: uppercase;
   font-weight: 800;
 }
-/* END NEEDED */
+
 
 .form {
   background-color: var(--color-dark--2);
