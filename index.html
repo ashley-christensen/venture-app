@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="logo2.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+
+    <script defer src="script.js"></script>
+    <title>Venture // Map your travel</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <img src="logo2.png" alt="Logo" class="logo" />
+
+      <ul class="ventures">
+        <form class="form hidden">
+          <div class="form__row">
+            <label class="form__label">Type</label>
+            <select class="form__input form__input--type">
+              <option value="social">Social</option>
+              <option value="alone">Alone</option>
+            </select>
+          </div>
+          <div class="form__row">
+            <label class="form__label">Rating</label>
+            <input class="form__input form__input--rating" placeholder="" />
+          </div>
+          <div class="form__row">
+            <label class="form__label">Duration</label>
+            <input
+              class="form__input form__input--duration"
+              placeholder="min"
+            />
+          </div>
+
+          <div class="form__row">
+            <label class="form__label"># of Friends</label>
+            <input class="form__input form__input--friends" placeholder="" />
+          </div>
+          <div class="form__row form__row--hidden">
+            <label class="form__label"></label>
+            <input class="form__input form__input--hidden" placeholder="" />
+          </div>
+          <button class="form__btn">OK</button>
+        </form>
+      </ul>
+
+      <p class="copyright">
+        &copy; Copyright by
+        <span>Ashley Christensen</span>
+      </p>
+    </div>
+
+    <div id="map"></div>
+  </body>
+</html>
