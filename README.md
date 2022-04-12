@@ -1,3 +1,3 @@
 # venture-app
 
-// LearningJS OOPmessing around with browser geolocation API
+// Learning JS OOP, messing around with browser geolocation API, etc
