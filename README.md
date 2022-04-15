@@ -1,3 +1,5 @@
 # venture-app
 
-// Learning JS OOP, messing around with browser geolocation API, etc
+// This app logs social activities according to map location, with number of group members and time alottment for each activity 
+Purely used JS OOP, also used browser geolocation API and Leaflet Web Services 
+
